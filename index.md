@@ -175,7 +175,7 @@ This block displays the date and links to Google Calendar.
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
-  {{page.humandate}}; {{page.humantime}}
+  {{page.humandate}}; {{page.humantime}}. <a href="https://www.hpc.tntech.edu/bookings/">Reserve your seat here if you haven't already</a>.
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
